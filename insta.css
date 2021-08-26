@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.camara{
+    padding-left: 0px;
+    margin-left: 10px;
+}
+body{
+    height: 100vh;
+}
+main{
+    height: 63.2vh;
+}
+.nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid rgb(241, 237, 237);
+    padding: 15px;
+}
+
+h3{
+    font-family: 'Lobster', cursive;
+}
+
+.space{
+    margin-left: 1rem;
+}
+.tv{
+    margin-right: 0.5rem;
+}
+.str{
+   padding: 1%;
+   margin-bottom: 2%; 
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.stories{
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 10rem;
+    border: 2px solid rgb(241, 237, 237);
+    background-color: rgb(247, 247, 247);
+
+}
+.stories ol{
+        padding: 1%;
+        padding-left: 1%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        
+        
+
+}
+.stories img:hover{
+    filter: blur(1.2px);
+}
+footer{
+    padding: 1%;
+    /* padding-left: 13%;
+    padding-right: 13%; */
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(241, 237, 237);
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.stories img{
+
+    width: 70px;
+    border-radius: 50%;
+}
