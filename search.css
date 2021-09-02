@@ -1,0 +1,19 @@
+.search{
+    width: 17%;
+    height: 1.8rem;
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 10%;
+    padding: 10px;
+}
+.container{
+
+    margin: auto;
+    margin-top: 30px;
+    width: 66.6%;
+    height: 300%;
+}
+.c1{
+    padding: 10px;
+    display: inline;
+}
